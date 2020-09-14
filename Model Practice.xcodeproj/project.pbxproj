@@ -13,6 +13,7 @@
 		690C03392509E5D800306938 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690C03372509E5D800306938 /* Main.storyboard */; };
 		690C033B2509E5DA00306938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 690C033A2509E5DA00306938 /* Assets.xcassets */; };
 		690C033E2509E5DA00306938 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690C033C2509E5DA00306938 /* LaunchScreen.storyboard */; };
+		69581F35250FC5BC004DC27E /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = 69581F34250FC5BC004DC27E /* Screenshot01.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		690C033A2509E5DA00306938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		690C033D2509E5DA00306938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		690C033F2509E5DA00306938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69581F34250FC5BC004DC27E /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +60,22 @@
 			children = (
 				690C03312509E5D800306938 /* AppDelegate.swift */,
 				690C03332509E5D800306938 /* art.scnassets */,
-				690C03352509E5D800306938 /* GameViewController.swift */,
-				690C03372509E5D800306938 /* Main.storyboard */,
 				690C033A2509E5DA00306938 /* Assets.xcassets */,
-				690C033C2509E5DA00306938 /* LaunchScreen.storyboard */,
+				690C03352509E5D800306938 /* GameViewController.swift */,
 				690C033F2509E5DA00306938 /* Info.plist */,
+				690C033C2509E5DA00306938 /* LaunchScreen.storyboard */,
+				690C03372509E5D800306938 /* Main.storyboard */,
+				69581F36250FC5C0004DC27E /* Screenshots */,
 			);
 			path = "Model Practice";
+			sourceTree = "<group>";
+		};
+		69581F36250FC5C0004DC27E /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				69581F34250FC5BC004DC27E /* Screenshot01.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +139,7 @@
 				690C03342509E5D800306938 /* art.scnassets in Resources */,
 				690C033E2509E5DA00306938 /* LaunchScreen.storyboard in Resources */,
 				690C033B2509E5DA00306938 /* Assets.xcassets in Resources */,
+				69581F35250FC5BC004DC27E /* Screenshot01.png in Resources */,
 				690C03392509E5D800306938 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
