@@ -14,6 +14,8 @@
 		690C033B2509E5DA00306938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 690C033A2509E5DA00306938 /* Assets.xcassets */; };
 		690C033E2509E5DA00306938 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690C033C2509E5DA00306938 /* LaunchScreen.storyboard */; };
 		69581F35250FC5BC004DC27E /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = 69581F34250FC5BC004DC27E /* Screenshot01.png */; };
+		69F6C5DF250FCA76003FF854 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 69F6C5DE250FCA75003FF854 /* README.md */; };
+		69F6C5E1250FCB68003FF854 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F6C5E0250FCB68003FF854 /* Screenshot02.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		690C033D2509E5DA00306938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		690C033F2509E5DA00306938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69581F34250FC5BC004DC27E /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
+		69F6C5DE250FCA75003FF854 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		69F6C5E0250FCB68003FF854 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 		690C03252509E5D800306938 = {
 			isa = PBXGroup;
 			children = (
+				69F6C5DE250FCA75003FF854 /* README.md */,
 				690C03302509E5D800306938 /* Model Practice */,
 				690C032F2509E5D800306938 /* Products */,
 			);
@@ -74,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				69581F34250FC5BC004DC27E /* Screenshot01.png */,
+				69F6C5E0250FCB68003FF854 /* Screenshot02.png */,
 			);
 			path = Screenshots;
 			sourceTree = "<group>";
@@ -136,9 +142,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69F6C5DF250FCA76003FF854 /* README.md in Resources */,
 				690C03342509E5D800306938 /* art.scnassets in Resources */,
 				690C033E2509E5DA00306938 /* LaunchScreen.storyboard in Resources */,
 				690C033B2509E5DA00306938 /* Assets.xcassets in Resources */,
+				69F6C5E1250FCB68003FF854 /* Screenshot02.png in Resources */,
 				69581F35250FC5BC004DC27E /* Screenshot01.png in Resources */,
 				690C03392509E5D800306938 /* Main.storyboard in Resources */,
 			);
